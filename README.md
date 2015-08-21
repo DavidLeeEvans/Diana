@@ -20,7 +20,7 @@ The Diana API is split between two modes. Un-Initialized and Initialized. The ap
 
     int diana_process(struct diana *, float delta);
     
-    int processSystem(struct diana *, unsigned int system, float delta);
+    int diana_processSystem(struct diana *, unsigned int system, float delta);
 
 Entity
 ======
